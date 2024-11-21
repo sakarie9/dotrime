@@ -1,0 +1,6 @@
+build/
+sync/
+*.userdb/
+diff-dict.sh
+installation.yaml
+user.yaml

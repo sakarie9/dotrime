@@ -1,0 +1,7 @@
+patch:
+  translator/dictionary: rime_ice.sakari
+  pin_cand_filter:
+    - c	草
+  reduce_english_filter/words/+:
+    - bus
+    - yes
