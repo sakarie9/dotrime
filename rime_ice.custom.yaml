@@ -5,3 +5,4 @@ patch:
   reduce_english_filter/words/+:
     - bus
     - yes
+  engine/filters/@before last: lua_filter@en_spacer
