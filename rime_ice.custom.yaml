@@ -1,8 +1,9 @@
 patch:
   translator/dictionary: rime_ice.mine
-  pin_cand_filter:
-    - c	草
+  pin_cand_filter/+:
+    - c	草 才 从
   reduce_english_filter/words/+:
     - bus
     - yes
-  engine/filters/@before last: lua_filter@en_spacer
+  custom_phrase/user_dict: custom_phrase.mine
+  # engine/filters/@before last: lua_filter@en_spacer
