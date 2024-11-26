@@ -1,5 +1,6 @@
 patch:
   translator/dictionary: rime_ice.mine
+  translator/enable_correction: true
   pin_cand_filter/+:
     - c	草 才 从
   reduce_english_filter/words/+:
