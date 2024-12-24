@@ -4,3 +4,5 @@ patch:
     menu/page_size: 7
     switcher/hotkeys:
       - F4
+    key_binder/bindings/+:
+      - { when: composing, accept: KP_Enter, send: Return }

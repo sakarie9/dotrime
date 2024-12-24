@@ -8,3 +8,12 @@ patch:
     - yes
   custom_phrase/user_dict: custom_phrase.mine
   # engine/filters/@before last: lua_filter@en_spacer
+
+  # https://github.com/amzxyz/RIME-LMDG
+  grammar:
+    language: rime-lmdg/amz-v3n2m1-zh-hans
+    collocation_max_length: 5
+    collocation_min_length: 2
+  translator/contextual_suggestions: true
+  translator/max_homophones: 7
+  translator/max_homographs: 7
