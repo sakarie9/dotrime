@@ -1,8 +1,10 @@
 patch:
   translator/dictionary: rime_ice.mine
   # translator/enable_correction: true
-  pin_cand_filter/+:
-    - c	草 才 从
+  # pin_cand_filter/+:
+  #   - c	草 才 从
+  pin_cand_filter:
+    __include: pin_cand.mine:/list
   reduce_english_filter/words/+:
     - bus
     - yes
@@ -11,7 +13,7 @@ patch:
 
   # https://github.com/amzxyz/RIME-LMDG
   grammar:
-    language: rime-lmdg/amz-v3n2m1-zh-hans
+    language: rime-lmdg/wanxiang-lts-zh-hans
     collocation_max_length: 5
     collocation_min_length: 2
   translator/contextual_suggestions: true
